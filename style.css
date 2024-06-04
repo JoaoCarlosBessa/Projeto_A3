@@ -80,7 +80,7 @@
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     width: 600px;
-    max-width: 100%;
+    max-width: 98%;
     overflow: hidden;
     margin-top: 100px;
   }
@@ -100,13 +100,13 @@
   }
 
   .form {
-    margin: 5px;
     padding: 20px;
   }
   
   .form select {
     background-color: white;
     display: inline-block;
+    min-width: 100px;
     max-width: 44%;
     margin-left: 11px;
     margin-right: 11px;
