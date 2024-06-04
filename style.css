@@ -119,6 +119,16 @@
     padding-bottom: 20px;
     position: relative;
   }
+  .form-control select {
+    background-color: white;
+    display: inline-block;
+    width: 45%;
+    margin-left: 11px;
+    margin-right: 11px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
 
   .form-control label {
     display: inline-block;
