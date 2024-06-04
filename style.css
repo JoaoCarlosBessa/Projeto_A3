@@ -105,7 +105,8 @@
   
   .form select {
     background-color: white;
-    width: 44%;
+    display: inline-block;
+    width: 44.7%;
     margin-left: 13px;
     margin-right: 13px;
     padding: 10px;
