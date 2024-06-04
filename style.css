@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(airplaneback.jpg);
+    background-size: cover;
+  }
+  
+  header {
+    background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    padding: 20px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    text-align: left;
+    color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  a{
+    position: relative;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .login{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-right: 10px;
+    color: black;
+  }
+
+  .cadastro{
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 90px;
+    margin-right: 10px;
+    color: black;
+  }
+  
+
+  .linkhome{
+    color: white;
+    text-decoration: none;
+    position: flex;
+    font-size: 30px;
+  }
+
+  .container {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+
+  .containerBusca {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  
+  .header {
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .text{
+    width: 70%;
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .form {
+    padding: 20px;
+  }
+  
+  .form select {
+    background-color: white;
+    width: 250px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  .form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input {
+    border: 2px solid #f0f0f0;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #reservaBtn {
+    width: 38%;
+  }
+
+  #metodo1 {
+    width: 10%;
+  }
+
+  #metodo2 {
+    width: 10%;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+  }
+  
+  .form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .form button {
+    background-color: #fafafa;
+    border-color: lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .form-control button {
+    background-color: #fafafa;
+    border-color: lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    width: 40%;
+    margin-left: 165px;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .form-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .form-control.error small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 5px;
+    display: block;
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+  .form-control.success label {
+    margin-right: 1px;
+  }
+
+  .form-control.error label {
+    margin-right: 1px;
+  }
+
+  ol{
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  li{
+    font-size: 14px;
+    width: 100%;
+  }
