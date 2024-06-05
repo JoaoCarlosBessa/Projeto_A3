@@ -46,7 +46,16 @@ function checkInputs() {
 
   if (numberValue === "") {
     setErrorFor(number, "O número do cartão é obrigatório.");
-  }else if (numberValue.length < 16) {
+  } else {
+    setSuccessFor(number);
+  }
+  if (numberValue.length < 16) {
+    setErrorFor(number, "O número do cartão precisa possuir 16 números.");
+  } else {
+    setSuccessFor(number);
+  }
+
+  if (numberValue.length > 16) {
     setErrorFor(number, "O número do cartão precisa possuir 16 números.");
   } else {
     setSuccessFor(number);
