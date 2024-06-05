@@ -49,13 +49,7 @@ function checkInputs() {
   } else {
     setSuccessFor(number);
   }
-  if (numberValue.length < 16) {
-    setErrorFor(number, "O número do cartão precisa possuir 16 números.");
-  } else {
-    setSuccessFor(number);
-  }
-
-  if (numberValue.length > 16) {
+  if (numberValue.length !16) {
     setErrorFor(number, "O número do cartão precisa possuir 16 números.");
   } else {
     setSuccessFor(number);
@@ -67,13 +61,7 @@ function checkInputs() {
     setSuccessFor(cvv);
   }
   
-  if (cvvValue.length < 3) {
-      setErrorFor(password, "O código de validação precisa possuir 3 números.");
-  } else {
-    setSuccessFor(cvv);
-  }
-  
-  if (cvvValue.length > 3) {
+  if (cvvValue.length !3) {
       setErrorFor(password, "O código de validação precisa possuir 3 números.");
   } else {
     setSuccessFor(cvv);
