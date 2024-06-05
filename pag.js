@@ -62,7 +62,7 @@ function checkInputs() {
   }
   
   if (cvvValue.length != 3) {
-      setErrorFor(password, "O código de validação precisa possuir 3 números.");
+      setErrorFor(cvv, "O código de validação precisa possuir 3 números.");
   } else {
     setSuccessFor(cvv);
   }
