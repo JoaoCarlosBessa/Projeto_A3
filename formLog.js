@@ -35,6 +35,8 @@ function checkInputs() {
   if (formIsValid) {
     console.log("O formulário está 100% válido!");
     alert("Login realizado com sucesso!");
+
+    window.location.href = "index.html";
   }
 }
 
