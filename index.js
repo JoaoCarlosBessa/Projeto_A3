@@ -17,8 +17,9 @@ function confere(){
         lista.style.display = "inline-block";
         reservaBtn.style.display = "inline-block";
     }
-    if (aeroporto_orValue === "selecionar" ||  aeroporto_dsValue === "selecionar"){
+    if (aeroporto_orValue === aeroporto_dsValue || aeroporto_orValue === "selecionar" ||  aeroporto_dsValue === "selecionar"){
         lista.style.display = "none";
         reservaBtn.style.display = "none";
+        alert("Escolha dois aeroportos diferentes!");
     }
 }                                   
